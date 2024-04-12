@@ -4,8 +4,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="signalstickers-client",
-    version="3.2.0",
+    name="signalstickers-client-fork-laggykiller",
+    version="3.3.0-custom0",
     author="Romain Ricard",
     author_email="contact+stickerclient@romainricard.fr",
     description="A client for the Signal stickers API",
