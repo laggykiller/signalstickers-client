@@ -5,14 +5,15 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="signalstickers-client-fork-laggykiller",
-    version="3.3.0.post0",
+    version="3.3.0.post1",
     author="Romain Ricard",
     author_email="contact+stickerclient@romainricard.fr",
     description="A client for the Signal stickers API",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/laggykiller/signalstickers-client",
-    packages=setuptools.find_packages(),
+    packages=setuptools.find_packages(where="src"),
+    package_dir={"": "src"},
     install_requires=[
         'anyio>=3.0.0',
         'httpx>=0.16.1',
