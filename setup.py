@@ -11,7 +11,7 @@ setuptools.setup(
     description="A client for the Signal stickers API",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/romainricard/signalstickers-client",
+    url="https://github.com/laggykiller/signalstickers-client",
     packages=setuptools.find_packages(),
     install_requires=[
         'anyio>=3.0.0',

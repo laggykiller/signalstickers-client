@@ -1,3 +1,9 @@
+# NOTICE
+
+This is a fork from https://github.com/signalstickers/signalstickers-client
+
+This fork adds typing and remove dependencies version caps
+
 # Python client for Signal stickers
 
 A client to interact with the [Signal](https://signal.org/) stickers API.
