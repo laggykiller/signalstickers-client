@@ -28,6 +28,7 @@
 
 import httpx
 from types import TracebackType
+from typing import Optional
 
 from signalstickers_client.classes import downloader, uploader
 from signalstickers_client.models import LocalStickerPack
@@ -46,9 +47,9 @@ class StickersClient:
 
     async def __aexit__(
         self,
-        exc_type: type[BaseException] | None = None,
-        exc_value: BaseException | None = None,
-        traceback: TracebackType | None = None,
+        exc_type: Optional[type] = None,
+        exc_value: Optional[BaseException] = None,
+        traceback: Optional[TracebackType] = None,
     ) -> None:
         return await self.http.__aexit__(exc_type, exc_value, traceback)
 
