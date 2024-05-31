@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="signalstickers-client-fork-laggykiller",
-    version="3.3.0.post1",
+    version="3.3.0.post2",
     author="Romain Ricard",
     author_email="contact+stickerclient@romainricard.fr",
     description="A client for the Signal stickers API",
